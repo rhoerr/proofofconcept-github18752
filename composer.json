@@ -1,0 +1,17 @@
+{
+    "name": "proofofconcept/github18752",
+    "description": "Proof of concept of the #18752 checkout rollback exception issue.",
+    "require": {
+        "magento/framework": "^100.0||^101.0||^102.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "time": "2019-08-16",
+    "license": "OSL",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "ProofOfConcept\\Github18752\\": ""
+        }
+    }
+}
