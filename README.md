@@ -9,6 +9,11 @@ Proof of concept bug reproduction for the https://github.com/magento/magento2/is
     bin/magento module:enable ProofOfConcept_Github18752
     bin/magento setup:upgrade
 
+### To reproduce:
+
+ * Add a product to cart as a guest
+ * Place an order with any payment method
+ * Observe that checkout fails: "An error occurred on the server. Please try to place the order again."
 
 ### Preconditions:
 
