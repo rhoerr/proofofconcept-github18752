@@ -5,7 +5,7 @@ Proof of concept bug reproduction for the https://github.com/magento/magento2/is
 ### To install:
 
     composer config repositories.poc18752 git https://github.com/rhoerr/proofofconcept-github18752.git
-    composer require rhoerr/proofofconcept-github18752:master
+    composer require rhoerr/proofofconcept-github18752
     bin/magento module:enable ProofOfConcept_Github18752
     bin/magento setup:upgrade
 
